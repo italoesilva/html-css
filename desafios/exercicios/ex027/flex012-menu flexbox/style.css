@@ -25,16 +25,18 @@ header{
 }
 
 header > h1{   /* Meu site */
-    border: 1px dotted black;   
+   /* border: 1px dotted black; PONTILHADO   */
+
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.51);
 
     flex: 0 0 200px;  /* FLEXBOX */
 }
 
 nav{   /* Opções */
-    border: 1px dotted black;
+    /* border: 1px dotted black; PONTILHADO */
     
     display: flex;  /* FLEXBOX */
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: flex-end;
 }
 
@@ -60,4 +62,5 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.511);
 }
+
 
